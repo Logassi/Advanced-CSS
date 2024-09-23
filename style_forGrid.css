@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
+}
+
+.content{
+    padding: 2em;
+    height: 2em;
+    background-color: aquamarine;
+}
+
+.content:nth-child(even){
+    background-color: beige ;
+}
