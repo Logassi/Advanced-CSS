@@ -1,0 +1,32 @@
+.kotak{
+    width: 5em;
+    height: 5em;
+}
+
+#container{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#kotak1{
+    background-color: red;
+}
+
+#kotak2{
+    background-color: yellow;
+}
+
+#kotak3{
+    background-color: green;
+}
+
+#kotak4{
+    background-color: blue;
+}
+
+#kotak5{
+    background-color: grey;
+}
