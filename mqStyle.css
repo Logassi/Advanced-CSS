@@ -2,6 +2,21 @@
     background-color: red;
     font-size: 42px;
     padding: 2em;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 1024px; */
+    /* margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto; */
+    /* text-align: center; */
+}
+
+.content{
+    background-color: yellow;
+    font-size: 24px;
+    width: 10em;
+    height: 10em;
 }
 
 
@@ -13,7 +28,7 @@
 }
 
 @media screen and (min-width : 800px) {
-    .container{
+    .content{
         background-color: green;
         font-size: 34px;
     }
